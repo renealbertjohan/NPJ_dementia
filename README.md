@@ -4,4 +4,4 @@ Extensive evidence suggests overlapping pathological mechanisms in the brain of 
 
 # Data availability
 
-The RNA-seq data that support the findings of this study have been deposited in the Gene Expression Omnibus repository with the series record XXX.
+The RNA-seq data that support the findings of this study have been deposited in the Gene Expression Omnibus repository with the series record GSE318560.
