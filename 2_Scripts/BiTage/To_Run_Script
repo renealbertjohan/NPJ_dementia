@@ -1,0 +1,7 @@
+python age_prediction_polars_matrix.py \ 
+--counts-file Counts_CPM_filtgenes.csv \ 
+--genes-file Predictor_Genes_Human.csv \ 
+--intercept 79.2 \ 
+--with-correction \ 
+--median-age 50 \ 
+--sd-age 10 

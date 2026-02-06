@@ -1,0 +1,10 @@
+
+The script age_prediction is the script which was adjusted and optimized from the origial one. This script estimates RNA age taking as input the following:
+- Predictor_Genes_Human: Provided by the software. It contains the set of genes with their respective  elastic net coefficients taken into account for RNAage calculation. 
+- Counts_CPM_filtgenes: This comes from our dataset. It is the count matrix with reads converted to CPM from genes that are only present in the Predictor_Genes_Human set.
+- Intercept : Constant value adjusted according to the dataset
+
+
+The script also includes the correction of the RNAage estimation, to get the RNAage corrected, the script needs to set explicitly the following parameters:
+-- median-age
+-- sd-age
