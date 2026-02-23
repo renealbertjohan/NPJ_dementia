@@ -433,7 +433,7 @@ write.csv(NoLOGcountsTMM, "NPJ_dementia/1_Datasets/Counts_Matrices/NoLOGcountsTM
 genesTTM <- countsTMM
 row_genesTTM <- t(countsTMM)
 dmatrix_genes <- dist(row_genesTTM, method = "euclidean")
-cluster_genes <- hclust(dmatrix_genes, method = "ward.D2")
+cluster_genes <- stats::hclust(dmatrix_genes, method = "ward.D2")
 colored <- factor(phenoHEROES$Status[cluster_genes$order], labels = c("limegreen", "navyblue", "gold", "darkred"), level = c("Control", "PDD", "AD", "DSD"))
 
 # Hierarchical Clustering

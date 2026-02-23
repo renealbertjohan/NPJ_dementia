@@ -1,0 +1,17 @@
+"","ID","ensembl_gene_id","entrezgene_id","chromosome_name","start_position","end_position","strand","percentage_gene_gc_content","description","transcript_length","cds_length"
+"1363","ARHGAP19","ENSG00000213390",84986,"10",97222173,97292673,"-",42.77,"Rho GTPase activating protein 19",5525,902
+"1737","ATF7IP","ENSG00000171681",55729,"12",14365676,14502931,"+",36.09,"activating transcription factor 7 interacting protein",2298,NA
+"1453","ARID2","ENSG00000189079",196528,"12",45729706,45908040,"+",36.08,"AT-rich interaction domain 2",735,NA
+"37492","MIS18BP1","ENSG00000129534",55320,"14",45203190,45253540,"-",37.65,"MIS18 binding protein 1",4577,3399
+"57300","ZNF121","ENSG00000197961",7675,"19",9560329,9584504,"-",41.93,"zinc finger protein 121",7177,1173
+"5722","CYP4F3","ENSG00000186529",4051,"19",15640897,15662825,"+",45.74,"cytochrome P450 family 4 subfamily F member 3",2078,NA
+"57523","ZNF43","ENSG00000198521",7594,"19",21804946,21852125,"-",41.77,"zinc finger protein 43",5584,2412
+"57699","ZNF615","ENSG00000197619",284370,"19",51991332,52008230,"-",39.06,"zinc finger protein 615",4094,2196
+"57315","ZNF141","ENSG00000131127",7700,"4",337814,384868,"+",40.31,"zinc finger protein 141",536,NA
+"5852","DCAF16","ENSG00000163257",54876,"4",17793446,17810758,"-",38.69,"DDB1 and CUL4 associated factor 16",2633,NA
+"4110","CEP44","ENSG00000164118",80817,"4",174283730,174333380,"+",35.65,"centrosomal protein 44",600,336
+"54572","TNPO1","ENSG00000083312",3842,"5",72816312,72916733,"+",37.25,"transportin 1",11040,2613
+"54217","TMEM161B","ENSG00000164180",153396,"5",88185575,88269476,"-",35.56,"transmembrane protein 161B",5735,1509
+"38029","MT-TC","ENSG00000210140",NA,"MT",5761,5826,"-",45.45,"mitochondrially encoded tRNA-Cys (UGU/C)",66,NA
+"38049","MT-TY","ENSG00000210144",NA,"MT",5826,5891,"-",42.42,"mitochondrially encoded tRNA-Tyr (UAU/C)",66,NA
+"44061","RAP2C","ENSG00000123728",57826,"X",132203024,132219480,"-",37.77,"RAP2C, member of RAS oncogene family",3341,354

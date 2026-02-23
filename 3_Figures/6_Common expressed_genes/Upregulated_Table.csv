@@ -1,0 +1,30 @@
+"","ID","ensembl_gene_id","entrezgene_id","chromosome_name","start_position","end_position","strand","percentage_gene_gc_content","description","transcript_length","cds_length"
+"1413","ARHGEF10L","ENSG00000074964",55160,"1",17539698,17697874,"+",54.39,"Rho guanine nucleotide exchange factor 10 like",4625,3840
+"29611","HS6ST1P1","ENSG00000187952",NA,"1",21428303,21429536,"+",67.1,"heparan sulfate 6-O-sulfotransferase 1 pseudogene 1",1234,NA
+"53280","SYT15","ENSG00000204176",83849,"10",46578217,46594173,"+",52.37,"synaptotagmin 15",6428,1425
+"42060","PHRF1","ENSG00000070047",57661,"11",576470,612222,"+",56.31,"PHD and ring finger domains 1",5278,4947
+"52582","SPIRE2","ENSG00000204991",84501,"16",89818179,89871319,"+",54.79,"spire type actin nucleation factor 2",663,NA
+"6021","DEF8","ENSG00000140995",54849,"16",89948697,89968060,"+",56.83,"differentially expressed in FDCP 8 homolog",3620,1356
+"28264","GPS2","ENSG00000132522",2874,"17",7311324,7315564,"-",56.28,"G protein pathway suppressor 2",1238,983
+"3030","CACNA1G","ENSG00000006283",8913,"17",50560715,50627474,"+",56.94,"calcium voltage-gated channel subunit alpha1 G",7497,6786
+"2092","BAHCC1","ENSG00000266074",57597,"17",81395457,81466331,"+",63.19,"BAH domain and coiled-coil containing 1",10726,7827
+"54698","TPGS1","ENSG00000141933",91978,"19",507497,519654,"+",61.72,"tubulin polyglutamylase complex subunit 1",1114,873
+"34411","LMNB2","ENSG00000176619",84823,"19",2427638,2456959,"-",59.73,"lamin B2",769,NA
+"3054","CACTIN","ENSG00000105298",58509,"19",3610645,3626815,"-",61.59,"cactin, spliceosome C complex subunit",699,354
+"57731","ZNF653","ENSG00000161914",115950,"19",11483427,11505839,"-",55.65,"zinc finger protein 653",674,652
+"55481","TTC9B","ENSG00000174521",148014,"19",40216058,40218384,"-",63.9,"tetratricopeptide repeat domain 9B",828,720
+"52647","SPTBN4","ENSG00000160460",57731,"19",40466241,40576464,"+",51.05,"spectrin beta, non-erythrocytic 4",6105,6009
+"28336","GRIN2D","ENSG00000105464",2906,"19",48393668,48444931,"+",52.92,"glutamate ionotropic receptor NMDA type subunit 2D",5511,4011
+"55293","TRPM2","ENSG00000142185",7226,"21",44350163,44443081,"+",54.13,"transient receptor potential cation channel subfamily M member 2",5989,4512
+"29068","HIRA","ENSG00000100084",7290,"22",19330698,19447450,"-",46.11,"histone cell cycle regulator",3395,2433
+"43323","PRR5","ENSG00000186654",55615,"22",44668547,44737681,"+",56.73,"proline rich 5",1726,882
+"443","ADCY5","ENSG00000173175",111,"3",123282296,123449090,"-",51.17,"adenylate cyclase 5",6643,3948
+"38788","N4BP3","ENSG00000145911",23138,"5",178113532,178127034,"+",59.62,"NEDD4 binding protein 3",5985,1635
+"7139","EHMT2","ENSG00000204371",10919,"6",31879759,31897698,"-",53.84,"euchromatic histone lysine methyltransferase 2",1517,NA
+"27347","FZD9","ENSG00000188763",8326,"7",73433778,73436120,"+",68.46,"frizzled class receptor 9",2343,1776
+"50699","SH2B2","ENSG00000160999",10603,"7",102285091,102321711,"+",56.99,"SH2B adaptor protein 2",490,144
+"52802","SSPOP","ENSG00000197558",NA,"7",149776042,149833829,"+",61.02,"SCO-spondin, pseudogene",15799,NA
+"51506","SMARCD3","ENSG00000082014",6604,"7",151238764,151277896,"-",56.14,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3",468,NA
+"9115","ENSG00000227619","ENSG00000227619",105376292,"9",129575117,129584557,"+",53.72,"novel transcript",1860,NA
+"44013","RALGDS","ENSG00000160271",5900,"9",133097720,133149334,"-",58.92,"ral guanine nucleotide dissociation stimulator",5596,NA
+"39239","NELFB","ENSG00000188986",25920,"9",137255327,137273542,"+",56.43,"negative elongation factor complex member B",2540,1887

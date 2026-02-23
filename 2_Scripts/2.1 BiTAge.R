@@ -11,7 +11,6 @@ library(car) # qqPlot function for Two-way ANOVA
 phenoHEROES_RNAAge_FPKM <- read.delim("NPJ_dementia/1_Datasets/PhenoData/phenoHEROES_RNAAge_FPKM.csv", sep = ",", dec = ".", header = TRUE)
 row.names(phenoHEROES_RNAAge_FPKM) <- phenoHEROES_RNAAge_FPKM$Tube_code
 phenoHEROES_RNAAge_FPKM$X <- NULL
-phenoHEROES_RNAAge_FPKM
 
 # Load BiT Age results perform through Python script
 BiTage <- read.delim("NPJ_dementia/2_Scripts/BiTage/BiT_age.txt", sep = " ", dec = ".", header = FALSE)
@@ -64,7 +63,7 @@ sd(RNAAGECAL[RNAAGECAL$Status == "DSD" & RNAAGECAL$Timepoint == "BiTAge", "Age"]
 stat.test_RNAAGECAL <- aov(Age ~ Status * Timepoint, data = RNAAGECAL) %>%
   tukey_hsd()
 stat.test_RNAAGECAL <- stat.test_RNAAGECAL[c(11,18,24,29),] 
-
+stat.test_RNAAGECAL
 RNAAGECAL$Timepoint <- factor(RNAAGECAL$Timepoint,
                        levels = c('ChronAge','BiTAge'), ordered = TRUE)
 
@@ -74,7 +73,7 @@ png(filename="NPJ_dementia/3_Figures/2_RNAAgeCalc/BiTAge/BiT_Age_Calculation.png
     units     = "cm",
     res       = 1200,
     pointsize = 4)
-RNAAGECAL
+
 p <- ggplot(RNAAGECAL, aes(x = Timepoint, y = Age, fill = Timepoint)) +
   stat_boxplot(geom = "errorbar",
                width = 0.4,
@@ -193,7 +192,7 @@ dev.off()
 stat.test_AgeDif <- aov(AgeDif_BiT ~ Status, data = phenoHEROES_RNAAge_BiTage) %>%
   tukey_hsd()
 stat.test_AgeDif
-phenoHEROES_RNAAge_BiTage
+
 png(filename="NPJ_dementia/3_Figures/2_RNAAgeCalc/BiTAge/BiT_Age_Dif.png",
     width     = 20,
     height    = 15,
